@@ -7,6 +7,7 @@ using ClosedXML.Excel;
 namespace ExcelLib.Export
 {
     /// <summary></summary>
+    /// <typeparam name="T"></typeparam>
     public sealed class ExcelLibExportRange<T>
     {
         /// <summary></summary>

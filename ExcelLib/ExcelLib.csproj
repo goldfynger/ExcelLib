@@ -38,6 +38,7 @@
     <Reference Include="System.Drawing" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExcelLibResultContainer.cs" />
     <Compile Include="ExcelLibService.cs" />
     <Compile Include="Export\ExcelLibExportProperty.cs" />
     <Compile Include="Export\ExcelLibExportPropertyHeader.cs" />
@@ -46,8 +47,13 @@
     <Compile Include="Export\ExcelLibExportValue.cs" />
     <Compile Include="Export\ExcelLibExportPropertyParameter.cs" />
     <Compile Include="Extensions.cs" />
+    <Compile Include="Import\ExcelLibImportValuesContainer.cs" />
+    <Compile Include="Import\ExcelLibImportProperty.cs" />
+    <Compile Include="Import\ExcelLibImportRange.cs" />
+    <Compile Include="Import\ExcelLibImportValue.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
